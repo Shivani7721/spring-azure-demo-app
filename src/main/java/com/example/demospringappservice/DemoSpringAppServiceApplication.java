@@ -11,7 +11,7 @@ public class DemoSpringAppServiceApplication {
 
 	@GetMapping("/message")
 	public String message() {
-		return "Congrats! Your App is deployed!!";
+		return "Hurray! Your App is deployed to AZURE successfully!!";
 	}
 
 	public static void main(String[] args) {
